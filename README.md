@@ -19,6 +19,8 @@ npm run dev
 ```shell
 # 安装 Github 包
 go get github.com/piggy-bros/bloggist-backend
+# 安装后可能需要将包内包引用路径做对应修改
+# 如：import bloggist/static ===> import bloggist-backend/static
 
 # cd 进入目录后运行
 cd bloggist-backend/
